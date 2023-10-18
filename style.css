@@ -8,6 +8,12 @@ body {
 h2 {
     margin: 0;
     font-weight: normal;
+    text-align: center;
+}
+
+h3 {
+    margin: 0;
+    font-weight: normal;
 }
 
 p {
@@ -27,17 +33,28 @@ img {
     display: inline-block;
 }
 
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    width: calc(100% - 32px);
+    box-sizing: border-box;
+}
+
 /* header */
 header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 16px;
+    padding: 16px 0;
 }
 
 h1 {
     margin: 0;
     font-size: 0;
+}
+
+.logo-pc {
+    display: none;
 }
 
 /* hero */
@@ -54,4 +71,80 @@ h1 {
 
 .hero .btn {
     margin-top: 64px;
+}
+
+/* features */
+
+.features {
+    padding: 64px;
+}
+
+.feature {
+    margin-top: 64px;
+}
+
+.pic {
+text-align: center;
+}
+
+.feature h3 {
+    margin-top: 16px;
+}
+
+.feature p {
+    margin-top: 16px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    padding: 64px 0;
+    text-align: center;
+}
+
+small {
+    font-size: 14px;
+}
+
+@media (min-width:600px) {
+
+    .logo-sp {
+        display: none;
+    }
+
+    .logo-pc {
+        display: inline;
+    }
+
+    /* hero */
+
+    .hero .container {
+        display: flex;
+        align-items: center;
+    }
+    .hero .container div {
+        flex: 1;
+    }
+
+    .hero img {
+        margin-top: 0;
+    }
+
+    /* features */
+    .feature {
+        display: flex;
+        gap: 32px;
+    }
+
+    .pic {
+        width: 300px;
+    }
+
+    .desc {
+        flex: 1;
+    }
+
+    .reversed {
+        flex-direction: row-reverse;
+    }
 }
