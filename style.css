@@ -158,8 +158,6 @@ small {
 
     /* staffs */
     
-    
-
     .staffs {
         background: rgb(201, 195, 195);
         padding: 64px;
@@ -168,7 +166,7 @@ small {
     .staff {
         display: flex;
         gap: 32px;
-        margin-top: 128px;
+        margin-top: 72px;
     }
 
     .staff-desc h3 {
@@ -178,5 +176,4 @@ small {
     .staff-desc p {
         margin-top: 16px;
     }
-
 }
