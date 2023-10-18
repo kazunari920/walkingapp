@@ -40,6 +40,14 @@ img {
     box-sizing: border-box;
 }
 
+.red-letter {
+    color: red;
+}
+
+.blue-letter {
+    color: blue;
+}
+
 /* header */
 header {
     display: flex;
@@ -147,4 +155,28 @@ small {
     .reversed {
         flex-direction: row-reverse;
     }
+
+    /* staffs */
+    
+    
+
+    .staffs {
+        background: rgb(201, 195, 195);
+        padding: 64px;
+    }
+    
+    .staff {
+        display: flex;
+        gap: 32px;
+        margin-top: 128px;
+    }
+
+    .staff-desc h3 {
+        margin-top: 16px;
+    }
+    
+    .staff-desc p {
+        margin-top: 16px;
+    }
+
 }
