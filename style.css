@@ -119,10 +119,10 @@ small {
 .staffs {
     background: rgb(201, 195, 195);
     padding: 64px;
+    margin: 0 auto;
 }
 
 .staff {
-    gap: 32px;
     margin-top: 64px;
 }
 
@@ -177,8 +177,9 @@ small {
     }
 
     /* staffs */
-    
+
     .staff {
         display: flex;
+        gap: 32px;
     }
 }
