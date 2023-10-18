@@ -114,6 +114,26 @@ small {
     font-size: 14px;
 }
 
+/* staffs */
+
+.staffs {
+    background: rgb(201, 195, 195);
+    padding: 64px;
+}
+
+.staff {
+    gap: 32px;
+    margin-top: 72px;
+}
+
+.staff-desc h3 {
+    margin-top: 16px;
+}
+
+.staff-desc p {
+    margin-top: 16px;
+}
+
 @media (min-width:600px) {
 
     .logo-sp {
@@ -158,22 +178,7 @@ small {
 
     /* staffs */
     
-    .staffs {
-        background: rgb(201, 195, 195);
-        padding: 64px;
-    }
-    
     .staff {
         display: flex;
-        gap: 32px;
-        margin-top: 72px;
-    }
-
-    .staff-desc h3 {
-        margin-top: 16px;
-    }
-    
-    .staff-desc p {
-        margin-top: 16px;
     }
 }
