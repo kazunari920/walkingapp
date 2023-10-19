@@ -40,6 +40,14 @@ img {
     box-sizing: border-box;
 }
 
+.red-letter {
+    color: red;
+}
+
+.blue-letter {
+    color: blue;
+}
+
 /* header */
 header {
     display: flex;
@@ -84,7 +92,7 @@ h1 {
 }
 
 .pic {
-text-align: center;
+    text-align: center;
 }
 
 .feature h3 {
@@ -104,6 +112,26 @@ footer {
 
 small {
     font-size: 14px;
+}
+
+/* staffs */
+
+.staffs {
+    background: rgb(201, 195, 195);
+    padding: 64px;
+    margin: 0 auto;
+}
+
+.staff {
+    margin-top: 64px;
+}
+
+.staff-desc h3 {
+    margin-top: 16px;
+}
+
+.staff-desc p {
+    margin-top: 16px;
 }
 
 @media (min-width:600px) {
@@ -146,5 +174,12 @@ small {
 
     .reversed {
         flex-direction: row-reverse;
+    }
+
+    /* staffs */
+
+    .staff {
+        display: flex;
+        gap: 32px;
     }
 }
